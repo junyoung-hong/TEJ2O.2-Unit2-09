@@ -33,7 +33,7 @@ input.onGesture(Gesture.Shake, function () {
         basic.showIcon(IconNames.Scissors)
     }
 
-    // pasue and show you are ready again
+    // pause and show you are ready again
     basic.pause(1000)
     basic.showIcon(IconNames.Happy)
 })
